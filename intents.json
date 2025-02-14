@@ -31,6 +31,41 @@
       "O programa contribui para a criação e fortalecimento de núcleos de desenvolvimento tecnológico dentro das empresas. \n- Incentiva a estruturação de departamentos de inovação, tornando a pesquisa uma atividade contínua dentro do ambiente corporativo.\n- Ampliando as oportunidades de emprego para pesquisadores no mercado, fortalecendo a inserção de profissionais qualificados na iniciativa privada.\n- Ajuda empresas a consolidarem uma cultura de inovação, garantindo que a pesquisa científica seja um diferencial competitivo.\n- Cria um ambiente favorável para que pequenas empresas desenvolvam tecnologias próprias e reduzam a dependência de inovações externas.\n"
     ],
     "context": ["pipe", "objetivos", "objetivo"]
+  },
+  {
+    "tag": "elegibilidade_localizacao",
+    "patterns": ["Pesquisadores fora de São Paulo podem apresentar projetos?", "Empresas de outros estados podem participar do PIPE?", "Sou de outro estado, posso participar do PIPE?"],
+    "responses": [
+      "O Pesquisador Responsável deverá residir no estado de São Paulo para ser elegível ao PIPE. Caso a empresa já esteja constituída fora do estado de São Paulo, o pesquisador deverá submeter o projeto, obrigatoriamente, em nome dessa empresa.",
+      "Ter unidade de pesquisa constituída no estado de São Paulo (ítem 3.3 da norma) é condição para a concessão do processo.",
+      "Pesquisadores de outros estados que venham a instalar novas empresas em São Paulo e se tornem residentes no estado também são elegíveis.",
+      "Caso um pesquisador ou empresa esteja localizada fora do estado, é necessário estabelecer uma unidade de pesquisa em São Paulo para se tornar apto a submeter um projeto ao PIPE.",
+      "Empresas e pesquisadores de outros estados interessados no PIPE devem comprovar vínculo com uma instituição ou unidade de pesquisa em São Paulo antes da submissão do projeto."
+    ],
+    "context": ["pipe", "elegibilidade", "localizacao"]
+  },
+  {
+    "tag": "itens_financiaveis",
+    "patterns": ["Quais itens são financiáveis?", "O que pode ser financiado pelo PIPE?", "Que tipos de gastos são cobertos pelo PIPE?"],
+    "responses": [
+      "Além das bolsas PE e TT e de recursos para viagens, são também financiáveis Serviços de Terceiros, Material Permanente e Material de Consumo.",
+      "São disponibilizados itens como Bolsas PE e TT,Material de Consumo, podendo ser adquiridos tanto no Brasil quanto no exterior, desde que sejam bem justificados como essenciais à pesquisa científica ou tecnológica que será desenvolvida no âmbito do projeto.",
+      "Não são financiáveis itens de produção ou que não sejam essenciais à pesquisa proposta, mesmo que possam ter utilidade para a empresa.",
+      "O programa permite a aquisição de equipamentos, insumos e serviços especializados, desde que se demonstre a relevância deles para o desenvolvimento do projeto de pesquisa.",
+      "Os recursos podem ser utilizados para contratar serviços técnicos especializados, adquirir materiais de consumo necessários para os experimentos e investir em infraestrutura essencial ao estudo proposto."
+    ],
+    "context": ["pipe", "financiamento", "itens"]
+  },
+  {
+    "tag": "informacoes_pipe",
+    "patterns": ["Como posso obter mais informações sobre o PIPE?", "Onde encontro detalhes sobre o PIPE?", "Onde posso aprender mais sobre o PIPE?"],
+    "responses": [
+      "O site fapesp.br/pipe apresenta informações detalhadas sobre o programa, incluindo normas e chamadas vigentes.",
+      "Periodicamente, acontece o evento 'Diálogo sobre Apoio à Pesquisa para Inovação na Pequena Empresa', onde o PIPE é apresentado e dúvidas são esclarecidas. Consulte as próximas datas no site do PIPE.",
+      "Para mais detalhes sobre o PIPE, acesse o site oficial da FAPESP ou participe dos eventos e seminários promovidos pela fundação.",
+      "O site da FAPESP oferece documentos completos sobre o PIPE, além de contatos para esclarecimento de dúvidas adicionais."
+    ],
+    "context": ["pipe", "informacao"]
   }
 ]
 }
