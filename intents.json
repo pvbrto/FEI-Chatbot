@@ -1,0 +1,36 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem","como vai"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","fui","beleza"],
+    "responses": ["Até breve","Falou"]
+  },
+  {
+    "tag": "definicao_pipe",
+    "patterns": ["qual a definicao do pipe?", "o que é o pipe?"],
+    "responses": [
+      "O PIPE é um programa da FAPESP que apoia a pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo, promovendo a inovação como estratégia para aumentar a competitividade, incentivar o desenvolvimento empresarial e estimular a criação de soluções tecnológicas inovadoras.",
+      "É um programa voltado para fomentar a inovação tecnológica em pequenas empresas, permitindo que elas realizem pesquisas científicas em parceria com pesquisadores acadêmicos, com o objetivo de desenvolver novos produtos, processos ou serviços que fortaleçam sua posição no mercado.",
+      "O Programa Pesquisa Inovativa em Pequenas Empresas é uma iniciativa da FAPESP que busca estimular a pesquisa científica como ferramenta para a inovação e o crescimento empresarial, proporcionando oportunidades para que pequenas empresas desenvolvam tecnologia de ponta e se tornem mais competitivas.",
+      "O PIPE tem como objetivo fortalecer pequenas empresas ao incentivar a pesquisa e o desenvolvimento de novas tecnologias, promovendo a interação entre o setor produtivo e o ambiente acadêmico, além de contribuir para a formação de núcleos de inovação dentro das empresas.",
+      "É um programa que contribui para a criação de núcleos de desenvolvimento tecnológico dentro das empresas e para a inserção de pesquisadores no mercado corporativo, promovendo a cultura da inovação e tornando a pesquisa científica um diferencial estratégico para os negócios.",
+      "O Programa Pesquisa Inovativa em Pequenas Empresas é uma estratégia para aumentar a competitividade das pequenas empresas por meio do incentivo à ciência e tecnologia, possibilitando que elas transformem ideias inovadoras em soluções aplicáveis ao mercado e impulsionem seu crescimento de forma sustentável."
+    ],
+    "context": ["pipe", "definicao"]
+  },
+  {
+    "tag": "objetivos_pipe",
+    "patterns": ["quais sao os objetivos do pipe?", "o que o pipe tem como objetivo?", "objetivo do pipe"],
+    "responses": [
+      "O PIPE apoia a pesquisa em ciência e tecnologia como ferramenta para impulsionar a inovação tecnológica e o crescimento empresarial. \n- Seu objetivo é aumentar a competitividade das pequenas empresas, tornando-as mais inovadoras e preparadas para os desafios do mercado.\n- Estimula a adoção de novas tecnologias, permitindo que negócios de menor porte acompanhem as tendências do setor.\n- Contribui para a estruturação de um ecossistema de inovação nas pequenas empresas, facilitando o desenvolvimento de novos produtos e processos.\n- Incentiva o uso da pesquisa científica como um diferencial estratégico para a expansão dos negócios.\n",
+      "O programa busca ampliar o impacto da pesquisa no desenvolvimento econômico e social. \n- Incentiva a criação de soluções tecnológicas inovadoras que possam gerar benefícios diretos para a sociedade.\n- Estimula a interação entre academia e setor produtivo, fortalecendo a economia e promovendo avanços sociais sustentáveis.\n- Apoia projetos que possam melhorar a qualidade de vida da população por meio da ciência e tecnologia.\n- Favorece a criação de um ambiente propício para startups e pequenas empresas tecnológicas crescerem de forma sustentável.\n",  
+      "Uma de suas metas é induzir o aumento do investimento privado em pesquisa tecnológica. \n- Fomenta a participação de empresas no financiamento de inovação, reduzindo a dependência de recursos públicos.\n- Estimula o desenvolvimento de novas tecnologias que possam gerar vantagem competitiva e crescimento sustentável para os negócios.\n- Cria oportunidades para que empresas enxerguem a inovação como um investimento estratégico de longo prazo.\n- Incentiva parcerias entre empresas e investidores para viabilizar projetos de alto impacto tecnológico.\n",
+      "O PIPE possibilita que pequenas empresas colaborem com pesquisadores acadêmicos em projetos de pesquisa voltados à inovação tecnológica. \n- Promove a aproximação entre o setor empresarial e universidades, criando parcerias estratégicas.\n- Estimula o intercâmbio de conhecimento, permitindo que empresas tenham acesso a avanços científicos e tecnológicos aplicáveis ao seu setor.\n- Facilita a transferência de tecnologia do meio acadêmico para o mercado, acelerando o desenvolvimento de inovações.\n- Permite que pesquisadores encontrem aplicações práticas para suas descobertas, transformando ciência em soluções reais para empresas.\n",
+      "O programa contribui para a criação e fortalecimento de núcleos de desenvolvimento tecnológico dentro das empresas. \n- Incentiva a estruturação de departamentos de inovação, tornando a pesquisa uma atividade contínua dentro do ambiente corporativo.\n- Ampliando as oportunidades de emprego para pesquisadores no mercado, fortalecendo a inserção de profissionais qualificados na iniciativa privada.\n- Ajuda empresas a consolidarem uma cultura de inovação, garantindo que a pesquisa científica seja um diferencial competitivo.\n- Cria um ambiente favorável para que pequenas empresas desenvolvam tecnologias próprias e reduzam a dependência de inovações externas.\n"
+    ],
+    "context": ["pipe", "objetivos", "objetivo"]
+  }
+]
+}
