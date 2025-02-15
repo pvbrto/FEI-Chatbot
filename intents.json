@@ -57,7 +57,7 @@
     "context": ["pipe", "financiamento", "itens"]
   },
   {
-    "tag": "informacoes_pipe",
+    "tag": "mais_informacoes_pipe",
     "patterns": ["Como posso obter mais informações sobre o PIPE?", "Onde encontro detalhes sobre o PIPE?", "Onde posso aprender mais sobre o PIPE?"],
     "responses": [
       "O site fapesp.br/pipe apresenta informações detalhadas sobre o programa, incluindo normas e chamadas vigentes.",
@@ -65,7 +65,25 @@
       "Para mais detalhes sobre o PIPE, acesse o site oficial da FAPESP ou participe dos eventos e seminários promovidos pela fundação.",
       "O site da FAPESP oferece documentos completos sobre o PIPE, além de contatos para esclarecimento de dúvidas adicionais."
     ],
-    "context": ["pipe", "informacao"]
+    "context": ["pipe", "informacao", "mais"]
+  },
+  {
+    "tag": "pipe_invest",
+    "patterns": ["O que é PIPE Invest?", "O que define o PIPE Invest?", "Como funciona o PIPE Invest?"],
+    "responses": [
+      "O PIPE Invest apoia startups e PMEs financiadas pelo PIPE que desenvolvem inovações promissoras e já despertaram o interesse de um investidor. O PIPE Invest visa aprimorar a tecnologia e acelerar a inovação no mercado.",
+      "O PIPE Invest apoia startups e pequenas empresas inovadoras com potencial, já financiadas pelo PIPE e com interesse de um investidor, visando aperfeiçoar a tecnologia e agilizar sua entrada no mercado."
+    ],
+    "context": ["pipe", "invest", "investimento"]	
+  },
+  {
+    "tag": "mais_informacoes_pipe_invest",
+    "patterns": ["Fale mais sobre o PIPE Invest", "Continue explicando sobre o PIPE Invest", "Explique sobre os investidores que podem utilizar o PIPE Invest"],
+    "responses": [
+      "Empresas que já desenvolveram projetos com apoio do PIPE e obtiveram aporte privado acima de R$ 100 mil poderão receber, via PIPE Invest, recursos equivalentes ao captado, até R$ 1,5 milhão, por até 24 meses. O investidor pode ser pessoa física ou jurídica, sem conflito de interesse.",
+      "Empresas que tiveram sucesso em projetos financiados pelo PIPE e garantiram investimento privado acima de R$ 100 mil podem receber, via PIPE Invest, recursos equivalentes, com limite de R$ 1,5 milhão por até 24 meses. O investidor pode ser pessoa física ou jurídica, desde que não haja conflito de interesse."
+    ],
+    "context": ["pipe", "invest", "investimento", "mais"]
   }
 ]
 }
