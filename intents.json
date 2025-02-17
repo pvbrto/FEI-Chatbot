@@ -84,6 +84,14 @@
       "Empresas que tiveram sucesso em projetos financiados pelo PIPE e garantiram investimento privado acima de R$ 100 mil podem receber, via PIPE Invest, recursos equivalentes, com limite de R$ 1,5 milhão por até 24 meses. O investidor pode ser pessoa física ou jurídica, desde que não haja conflito de interesse."
     ],
     "context": ["pipe", "invest", "investimento", "mais"]
+  },
+  {
+    "tag": "etapas_do_pipe",
+    "patterns": ["quais etapas do programa?", "pipe possui várias etapas?", "etapas do pipe"],
+    "responses": [
+        "O PIPE possui quatro etapas principais:\n\n1️⃣ **Fase 1**: Avaliação da viabilidade técnico-científica da proposta. Duração de até 9 meses, com orçamento de até R$ 300.000, além de Reserva Técnica e Benefícios Complementares.\n\n2️⃣ **Fase 2**: Execução da pesquisa propriamente dita. Duração de até 24 meses, com orçamento de até R$ 1.500.000, além de Reserva Técnica e Benefícios Complementares.\n\n3️⃣ **PIPE Invest**: Aceleração da chegada ao mercado de projetos da Fase 2, quando há uma terceira parte interessada. Duração de até 24 meses, com orçamento de até R$ 1.500.000.\n\n4️⃣ **Fase 3**: Desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores, a partir de pesquisas anteriores realizadas sem apoio da FAPESP ou com apoio do PIPE."
+      ],
+    "context": ["pipe", "etapas"]
   }
 ]
 }
