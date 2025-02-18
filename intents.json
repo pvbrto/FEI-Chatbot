@@ -89,9 +89,25 @@
     "tag": "etapas_do_pipe",
     "patterns": ["quais etapas do programa?", "pipe possui várias etapas?", "etapas do pipe"],
     "responses": [
-        "O PIPE possui quatro etapas principais:\n\n1️⃣ **Fase 1**: Avaliação da viabilidade técnico-científica da proposta. Duração de até 9 meses, com orçamento de até R$ 300.000, além de Reserva Técnica e Benefícios Complementares.\n\n2️⃣ **Fase 2**: Execução da pesquisa propriamente dita. Duração de até 24 meses, com orçamento de até R$ 1.500.000, além de Reserva Técnica e Benefícios Complementares.\n\n3️⃣ **PIPE Invest**: Aceleração da chegada ao mercado de projetos da Fase 2, quando há uma terceira parte interessada. Duração de até 24 meses, com orçamento de até R$ 1.500.000.\n\n4️⃣ **Fase 3**: Desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores, a partir de pesquisas anteriores realizadas sem apoio da FAPESP ou com apoio do PIPE."
+        "O PIPE possui quatro etapas principais:\n\n1. **Fase 1**: Avaliação da viabilidade técnico-científica da proposta. Duração de até 9 meses, com orçamento de até R$ 300.000, além de Reserva Técnica e Benefícios Complementares.\n\n2️. **Fase 2**: Execução da pesquisa propriamente dita. Duração de até 24 meses, com orçamento de até R$ 1.500.000, além de Reserva Técnica e Benefícios Complementares.\n\n3️. **PIPE Invest**: Aceleração da chegada ao mercado de projetos da Fase 2, quando há uma terceira parte interessada. Duração de até 24 meses, com orçamento de até R$ 1.500.000.\n\n4️. **Fase 3**: Desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores, a partir de pesquisas anteriores realizadas sem apoio da FAPESP ou com apoio do PIPE."
       ],
     "context": ["pipe", "etapas"]
+  },
+  {
+    "tag": "dedicacao_total",
+    "patterns": ["preciso ter dedicação exclusiva ao projeto?", "é necessário dedicação total ao projeto?", "qual a carga horária exigida para o projeto?"],
+    "responses": [
+      "Caso o pesquisador principal seja pago pela empresa e não receba bolsa da FAPESP, é exigida a dedicação mínima de 24 horas semanais ao projeto na empresa. Em casos excepcionais, em que a empresa demonstra não poder arcar com o salário do Pesquisador Responsável, a FAPESP pode analisar solicitação de Bolsa de Pesquisa em Pequena Empresa (Bolsa PE FAPESP). Se o pesquisador principal solicitar Bolsa PE, é necessária a dedicação mínima de 40 horas semanais ao projeto."
+    ],
+    "context": ["pipe", "dedicacao", "carga_horaria"]
+  },
+  {
+    "tag": "contratacao_consultores",
+    "patterns": ["Posso contratar consultores?", "É permitido contratar consultores no PIPE?", "Como funciona a contratação de consultores no projeto?"],
+    "responses": [
+      "Sim. Desde que bem justificado, é possível contratar Serviços de Terceiros de especialistas, de laboratórios acadêmicos ou de outras empresas. No caso de envolvimento de terceiros, prestadores de serviços ou parceiros no projeto, a relação deverá estar formalizada antes da concessão do projeto, considerando que:\n\na) Para os casos em que a participação do terceiro for de consultoria ou prestação de serviços, com remuneração com recursos do projeto ou da empresa, deverá ser apresentado contrato de prestação de serviços. Neste caso, a propriedade intelectual deve ser de propriedade exclusiva da pequena empresa.\n\nb) Caso a consultoria seja realizada por pesquisador de instituição pública, deverão ser apresentados:\n\nb.1) ofício da agência de inovação da respectiva Instituição de vínculo do pesquisador, concordando com a não participação na propriedade intelectual;\n\nb.2) autorização do órgão de pessoal da instituição para a consultoria; e\n\nb.3) contrato entre o consultor e a empresa prevendo que a titularidade pertencerá à empresa.\n\nc) Para os casos em que houver colaboração entre a pequena empresa e o terceiro, poderá haver compartilhamento de propriedade intelectual, devendo ser apresentado convênio, detalhando no plano de trabalho qual a participação do terceiro e da empresa na pesquisa, bem como indicando quais serão os recursos financeiros e econômicos envolvidos para financiar as pesquisas do convênio e a origem de tais recursos.\n\nd) Em qualquer caso, a pequena empresa deve ter o direito de explorar com exclusividade os resultados da pesquisa.\n\nA atenção e cuidado profissional com os assuntos de Propriedade Intelectual é essencial para preservar o valor da empresa e de suas inovações e para viabilizar a obtenção de investimentos privados."
+    ],
+    "context": ["pipe", "contratacao", "consultores", "propriedade_intelectual"]
   }
 ]
 }
