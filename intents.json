@@ -3,6 +3,10 @@
     "patterns":["Ola","Opa","Oi", "tudo bem","como vai"],
     "responses": ["Oi","Olá"]
   },
+  { "tag": "cumprimento",
+    "patterns":["quem é você?, você é um robô?"],
+    "responses": ["Eu sou um chatbot de assistência sobre o PIPE, Como posso te ajudar?"]
+  },
   { "tag": "despedida",
     "patterns":["valeu","tchau","Obrigado","fui","beleza"],
     "responses": ["Até breve","Falou"]
